@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('./Brisbane-9.jpg');
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menu-bar{
+    background: rgb(102, 153, 27);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(230, 238, 245);
+}
+.menu-bar ul li{
+    padding: 15px;
+    margin: 15px;
+    width: 120px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: rgb(223, 233, 213);
+}
+.active, .menu-bar ul li:hover{
+    background: rgb(79, 207, 107);
+    border-radius: 3px;
+
+}
+.menu-bar .fa{
+    margin-right: 8px;
+}
