@@ -3,9 +3,8 @@
     padding: 0;
 }
 body{
-    background-image: url('./Brisbane-9.jpg');
+    background-image: url('./bg.jpg');
     background-size: cover;
-    background-position: center;
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -68,4 +67,11 @@ body{
 }
 .sub-menu-2{
     display: none;
+}
+.hover-me:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: rgb(79, 207, 107);;
 }
